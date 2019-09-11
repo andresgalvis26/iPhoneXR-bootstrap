@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Website</title>
+    <!-- Agregar una fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!-- Agregar bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Vincular con el archivo CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Agregar Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <!-- Navegación o NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/img/apple.png" width="30" height="30" alt="">
+          Apple
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#header">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info-one">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contactenos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="container mt-2">
+        <div class="row">
+          <!-- Esto porque Bootstrap se comporta de 12 columnas -->
+          <div class="col-md-6">
+            <div class="header-content-left">
+              <img src="img/iphonexr.png" style="width:100%">
+            </div>
+          </div>
+
+          <div class="col-md-6 my-auto">
+            <div class="header-content-right">
+              <h1 class="display-2">iPhone XR</h1>
+              <br>
+              <h2 class="mt-3">El iPhone XR tiene la nueva pantalla Liquid Retina, el LCD más avanzado de la industria. Y además, cámara TrueDepth, Face ID y chip A12 Bionic.</h2>
+              <br>
+              <a href="#info-one" class="btn btn-outline-secondary btn-lg mt-3 header-btn">Conocer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <div class="container">
+        <p class="mb-3 display-4">Usar un iPhone nunca había sido tan fácil.</p>
+        <p class="h2">- Tim Cook</p>
+      </div>
+    </section>
+
+    <!-- Información uno -->
+    <section id="info-one">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-left">
+              <img src="img/iphonexr2.png" style="width:100%">
+            </div>
+          </div>
+
+          <div class="col-md-6 my-auto">
+            <div class="info-rigth">
+              <h1>Capacidad:</h1>
+              <h4>64GB</h4>
+              <h4>128GB</h4>
+              <br><hr><br>
+
+              <h1>Chip:</h1>
+              <h3 class="h4">Chip A12 Bionic</h3>
+              <h3 class="h4">Neural Engine de segunda generación</h3>
+              <br><hr><br>
+
+              <h1>Sistema Operativo:</h1>
+              <h3 class="h4">iOS 13</h3>
+              <h3 class="h4">iOS es el sistema operativo móvil más personal y seguro del mundo. Trae funcionalidades avanzadas y está diseñado para proteger tu privacidad.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Información dos -->
+    <section id="info-dos" style="background: #f1f1f1;">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-6 my-auto">
+            <br>
+            <h1>Cámara:</h1>
+            <ul>
+              <li><p class="h4">Cámara de 12 MP con gran angular</p></li>
+              <li><p class="h4">Apertura de ƒ/1.8</p></li>
+              <li><p class="h4">Zoom digital de hasta 5x</p></li>
+              <li><p class="h4">Modo Retrato con bokeh avanzado y Control de Profundidad</p></li>
+              <li><p class="h4">Iluminación de Retrato con tres efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno)</p></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 my-auto">
+            <h1>Grabación de video:</h1>
+            <ul>
+              <li><p class="h4">Grabación de video 4K a 24 cps, 30 cps o 60 cps</p></li>
+              <li><p class="h4">Grabación de video HD de 1080p a 30 cps o 60 cps</p></li>
+              <li><p class="h4">Grabación de video HD de 720p a 30 cps</p></li>
+              <li><p class="h4">Rango dinámico extendido para grabación de video a un máximo de 30 cps</p></li>
+              <li><p class="h4">Estabilización óptica de imagen para video</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial 2 -->
+    <section id="testimonial2">
+      <div class="container">
+        <p class="h1">Resistente a las salpicaduras, al agua y al polvo</p>
+        <p class="h3">Clasificación IP67 (hasta 30 minutos a una profundidad máxima de 1 metro) según la norma IEC 60529</p>
+      </div>
+    </section>
+
+    <!-- Información de contacto -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <form class="card my-3 mx-auto"> <!-- Card es un cuadro blanco que Bootstrap crea -->
+              <div class="card-body">
+                <div class="form-group">
+                  <input type="text" placeholder="Nombre" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Asunto" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="E-mail" class="form-control">
+                </div>
+                <div class="form-group">
+                  <textarea rows="10" cols="30" placeholder="Mensaje" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-secondary btn-block">Enviar</button>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Scripts de Scroll Reveal-->
+  <script>
+    window.sr = ScrollReveal();
+
+    sr.reveal('.navbar', {
+      duration: 3500,
+      origin: 'bottom'
+    });
+
+    sr.reveal('.header-content-left' , {
+      duration: 3500,
+      origin: 'top',
+      distance: '300px'
+    });
+
+    sr.reveal('.header-content-right' , {
+      duration: 3500,
+      origin: 'right',
+      distance: '300px'
+    });
+
+    sr.reveal('.header-btn', {
+      duration: 2000,
+      delay: 1000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('#testimonial' , {
+      duration: 3500,
+      origin: 'left',
+      distance: '300px'
+    });
+
+    // Smooth Scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+
+
+  </script>
+  </body>
+</html>
